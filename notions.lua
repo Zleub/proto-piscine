@@ -34,6 +34,14 @@ return {
 				"lua-prompt> f = function (e) print(e) end",
 				"lua-prompt> (function (e) print(e) end)(42)"
 			}
+		},
+		{
+			name = "local", category = "keyword",
+			description = "Learn what is a chunk",
+			examples = {
+				"lua-prompt> local x = 42 ; print(x)",
+				"lua-prompt> function (x) local x = 42 end"
+			}
 		}
 	},
 
@@ -55,17 +63,6 @@ return {
 				"lua-prompt> if 42 then end",
 				"lua-prompt> while 42 do end",
 				"lua-prompt> repeat until 42"
-			}
-		}
-	},
-
-	scope = {
-		{
-			name = "local", category = "keyword",
-			description = "Learn what is a chunk",
-			examples = {
-				"lua-prompt> local x = 42 ; print(x)",
-				"lua-prompt> function (x) local x = 42 end"
 			}
 		}
 	}
