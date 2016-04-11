@@ -1,4 +1,4 @@
-local n = {
+return {
    variables = {
 	  {
 		 name = "nil", category = "keyword type",
